@@ -63,14 +63,14 @@ export default {
         updateBannerVisibility();
       }
 
-      // 配置Unity WebGL构建路径
-      var buildUrl = "/static/湘绣/Build";
+      // 配置Unity WebGL构建路径（使用相对路径确保在不同部署环境下都能正常加载）
+      var buildUrl = "./static/湘绣/Build";
       var loaderUrl = buildUrl + "/湘绣.loader.js";
       var config = {
         dataUrl: buildUrl + "/湘绣.data",
         frameworkUrl: buildUrl + "/湘绣.framework.js",
         codeUrl: buildUrl + "/湘绣.wasm",
-        streamingAssetsUrl: "/static/湘绣/StreamingAssets",
+        streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "湘绣2版",
         productVersion: "0.1",
