@@ -46,7 +46,7 @@
           <p>数字化湘绣非遗销售是虚拟博物馆数字化转型的重要一环。其通过充分利用数字技术手段和
             电商平台等渠道，博物馆商城可以推出更多具有文化内涵和竞争力的文创产品，满足
             与日俱增非遗消费者的多样化需求，促进文化的传播和发展。</p>
-          <router-link to="/collect" class="btn" target="_blank">点我！</router-link>
+          <router-link to="/collect" class="btn">点我！</router-link>
         </div>
 
         <div class="box">
