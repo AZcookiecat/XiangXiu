@@ -2,3 +2,4 @@ public/static/湘绣/Build/*.framework.js filter=lfs diff=lfs merge=lfs -text
 public/static/湘绣/Build/*.loader.js filter=lfs diff=lfs merge=lfs -text
 public/static/湘绣/Build/*.data filter=lfs diff=lfs merge=lfs -text
 public/static/湘绣/Build/*.wasm filter=lfs diff=lfs merge=lfs -text
+public/static/pictures/湘绣1.0.mp4 filter=lfs diff=lfs merge=lfs -text
