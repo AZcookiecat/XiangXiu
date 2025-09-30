@@ -1,0 +1,9 @@
+/* 专门用于测试背景图片的样式文件 */
+.background-test {
+  background-image: url('/background11.png') !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  background-position: center !important;
+  background-color: #f0f0f0 !important;
+}
